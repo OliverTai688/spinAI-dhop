@@ -62,6 +62,11 @@ export const Footer = () => (
                         聯絡我們
                     </h3>
                     <ul className="space-y-3 text-sm">
+                        {FOOTER.company && (
+                            <li className="text-white/80 font-medium">
+                                {FOOTER.company}
+                            </li>
+                        )}
                         <li>
                             <a
                                 href={`mailto:${FOOTER.contact.email}`}

@@ -23,7 +23,7 @@ export const HERO = {
   description: '結合 SPIN 銷售法與 AI 智慧，讓每次客戶對話都成為成交機會',
   cta: {
     primary: '立即預約演示',
-    primaryLink: 'mailto:contact@spinai.tw?subject=預約系統演示',
+    primaryLink: 'mailto:inbest.2north@gmail.com?subject=預約系統演示',
     secondary: '查看功能介紹',
     secondaryLink: '#features',
   },
@@ -161,32 +161,6 @@ export const FEATURES = [
       '輸入啟動碼即可解鎖功能',
     ],
   },
-  {
-    id: 'Z05',
-    icon: 'Cloud',
-    title: '雲端資料庫',
-    description: 'Firestore 儲存，多裝置同步',
-    highlights: ['安全儲存', '隨時存取', '多裝置同步'],
-    details: [
-      'Firebase Authentication 身分驗證',
-      '客戶清單、會議紀錄雲端儲存',
-      '支援 Email 與 Google 登入',
-      '未來支援企業帳號管理',
-    ],
-  },
-  {
-    id: 'Z06',
-    icon: 'Settings',
-    title: '管理後台',
-    description: '用戶管理、Prompt 調整、數據分析',
-    highlights: ['深度分析', '靈活配置', '用戶洞察'],
-    details: [
-      '查看訂閱狀態與使用頻度',
-      '動態調整 AI 生成品質與風格',
-      '統計報告數量與轉化率',
-      '企業版支援團隊數據分析',
-    ],
-  },
 ];
 
 // ============================================
@@ -267,7 +241,7 @@ export const TECH_STACK = [
 export const PRICING_PLANS = [
   {
     name: '基礎版',
-    price: '洽詢',
+    price: 'FREE(14 days trial)',
     period: '',
     description: '個人業務使用',
     features: [
@@ -277,13 +251,13 @@ export const PRICING_PLANS = [
       '單一用戶',
     ],
     cta: '聯絡我們',
-    ctaLink: 'mailto:contact@spinai.tw?subject=詢問基礎版方案',
+    ctaLink: 'mailto:inbest.2north@gmail.com?subject=詢問基礎版方案',
     highlighted: false,
   },
   {
     name: '進階版',
     price: '洽詢',
-    period: '/ 年',
+    period: '9000 元/ 年',
     description: '專業團隊協作',
     features: [
       '所有基礎版功能',
@@ -293,7 +267,7 @@ export const PRICING_PLANS = [
       '支援 5 位用戶',
     ],
     cta: '立即訂閱',
-    ctaLink: 'mailto:contact@spinai.tw?subject=訂閱進階版',
+    ctaLink: 'mailto:inbest.2north@gmail.com?subject=訂閱進階版',
     highlighted: true,
     badge: '推薦',
   },
@@ -311,7 +285,7 @@ export const PRICING_PLANS = [
       '無限用戶數',
     ],
     cta: '預約諮詢',
-    ctaLink: 'mailto:contact@spinai.tw?subject=企業版諮詢',
+    ctaLink: 'mailto:inbest.2north@gmail.com?subject=企業版諮詢',
     highlighted: false,
   },
 ];
@@ -405,9 +379,9 @@ export const FINAL_CTA = {
   title: '準備好提升你的銷售效率了嗎？',
   subtitle: '立即預約系統演示，看看 AI 如何改變你的業務流程',
   primaryCta: '預約免費演示',
-  primaryLink: 'mailto:contact@spinai.tw?subject=預約免費演示',
+  primaryLink: 'mailto:inbest.2north@gmail.com?subject=預約免費演示',
   secondaryCta: '聯絡銷售顧問',
-  secondaryLink: 'mailto:sales@spinai.tw',
+  secondaryLink: 'mailto:inbest.2north@gmail.com',
 };
 
 // ============================================
@@ -416,19 +390,20 @@ export const FINAL_CTA = {
 export const FOOTER = {
   brand: 'SPIN 超級業務系統',
   description: '用 AI 重新定義保險銷售',
+  company: '英比士有限公司',
   quickLinks: [
     { label: '功能介紹', href: '#features' },
     { label: '定價方案', href: '#pricing' },
     { label: '常見問題', href: '#faq' },
-    { label: '聯絡我們', href: 'mailto:contact@spinai.tw' },
+    { label: '聯絡我們', href: 'mailto:inbest.2north@gmail.com' },
   ],
   contact: {
-    email: 'contact@spinai.tw',
-    phone: '+886-2-xxxx-xxxx',
+    email: 'inbest.2north@gmail.com',
+    phone: '03-4986444',
   },
   social: [
     { name: 'Facebook', icon: 'Facebook', url: '#' },
     { name: 'LINE', icon: 'MessageCircle', url: '#' },
   ],
-  copyright: `© ${new Date().getFullYear()} SPIN AI. All rights reserved.`,
+  copyright: `© ${new Date().getFullYear()} 英比士有限公司. All rights reserved.`,
 };
