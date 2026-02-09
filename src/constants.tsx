@@ -317,10 +317,55 @@ export const PRICING_PLANS = [
 ];
 
 // ============================================
-// 社會證明 - 合作夥伴
+// 顧客見證
+// ============================================
+export const TESTIMONIALS = [
+  {
+    avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=felix',
+    name: '陳建宏',
+    role: '資深業務主管',
+    content: '使用 SPIN 系統後，我的成交率提升了 40%。AI 幫我準備的問題清單讓每次拜訪都更有重點，客戶也感受到我的專業度。',
+  },
+  {
+    avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=aneka',
+    name: '林雅婷',
+    role: '保險顧問',
+    content: '過去我最頭痛的就是會議記錄，現在 AI 自動幫我整理重點，讓我可以專心與客戶互動。報告分享功能也讓追蹤變得超級簡單！',
+  },
+  {
+    avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=john',
+    name: '王志明',
+    role: '團隊經理',
+    content: '我們整個團隊都在用 SPIN 系統，不只提升個人效率，團隊數據追蹤也讓我能更好地輔導新人。這是我見過最實用的業務工具。',
+  },
+  {
+    avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=sarah',
+    name: '張美玲',
+    role: '首席顧問',
+    content: 'SPIN 方法論結合 AI 真的很強大！系統幫我挖掘出客戶的深層需求，讓我能提供更精準的解決方案。客戶滿意度也明顯提升。',
+  },
+];
+
+// ============================================
+// 合作夥伴
 // ============================================
 export const PARTNERS = [
   { name: '誠交俱樂部', logo: 'Handshake' },
+];
+
+// ============================================
+// 詳細功能對比
+// ============================================
+export const COMPARISON_DATA = [
+  { name: 'SPIN 對話引導', free: '基本', pro: '進階 AI', enterprise: '完全客製' },
+  { name: 'AI 報告生成', free: '10 份/月', pro: '無限制', enterprise: '無限制' },
+  { name: '客戶互動追蹤', free: '✗', pro: '✓', enterprise: '✓' },
+  { name: '雲端儲存', free: '基礎', pro: '進階', enterprise: '企業級' },
+  { name: '團隊協作', free: '1 人', pro: '5 人', enterprise: '無限制' },
+  { name: '管理後台', free: '✗', pro: '基本', enterprise: '完整權限' },
+  { name: 'Prompt 客製化', free: '✗', pro: '✗', enterprise: '✓' },
+  { name: 'API 串接', free: '✗', pro: '✗', enterprise: '✓' },
+  { name: '客服支援', free: '社群', pro: '優先支援', enterprise: '專屬經理' },
 ];
 
 // ============================================
