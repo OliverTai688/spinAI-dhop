@@ -241,7 +241,7 @@ export const TECH_STACK = [
 export const PRICING_PLANS = [
   {
     name: '基礎版',
-    price: 'FREE(14 days trial)',
+    price: 'FREE(14 days',
     period: '',
     description: '個人業務使用',
     features: [
@@ -256,8 +256,8 @@ export const PRICING_PLANS = [
   },
   {
     name: '進階版',
-    price: '洽詢',
-    period: '9000 元/ 年',
+    price: '9000 元',
+    period: '/ 年',
     description: '專業團隊協作',
     features: [
       '所有基礎版功能',
